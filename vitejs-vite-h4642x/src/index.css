@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://www.meram.bel.tr/upload/medya/MUHTAR_3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  background-color: rgba(26, 148, 62, 0.814); /* Arka plan rengi ve opaklık */
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  flex-grow: 1;
+}
+
+button {
+  margin-right: 10px;
+  background-color: #4CAF50; /* Yeşil renk */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #20ec27; /* Daha koyu yeşil hover efekti */
+}
+
+main {
+  padding: 20px;
+  color: #333;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5); /* Arka plan rengi ve opaklık */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer img {
+  max-width: 200px;
+}
